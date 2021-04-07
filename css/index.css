@@ -7,14 +7,15 @@
 
 .item {
   position: relative;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
 }
 
 .item-caption {
   position: absolute;
   bottom: 20px;
-  width: 80%;
-  left: 10%;
+  width: 60%;
   text-align: center;
   background-color: #fff;
 }
